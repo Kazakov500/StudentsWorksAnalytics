@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WpfApplication2.UserControls.StudentsWorkInDB"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApplication2.UserControls"
+             mc:Ignorable="d" Height="34" d:DesignWidth="513.606" Margin="0,0,0,2">
+    <Grid x:Name="DB_el_grid1">
+        <Border x:Name="DB_el_border" BorderBrush="Black" BorderThickness="1" d:LayoutOverrides="HorizontalAlignment" Background="#FFEFEFFD" UseLayoutRounding="False">
+            <StackPanel x:Name="DB_el_sp">
+                <Grid x:Name="DB_el_grid2" Height="32">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="50*"/>
+                        <ColumnDefinition Width="20*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="tBl_NumberOfStudentsWork" TextWrapping="Wrap" Text="Num" Margin="0" d:LayoutOverrides="Width" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="tb_Name" TextWrapping="Wrap" Text="Name" Margin="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="tb_Surname" TextWrapping="Wrap" Text="Surname" Margin="0" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="tb_Group" TextWrapping="Wrap" Text="Group" Margin="0" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                    <TextBlock x:Name="tBl_Mark" TextWrapping="Wrap" Text="Mark" Margin="0" Grid.Column="4" d:LayoutOverrides="Width" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    <Button x:Name="btn_Delete" Content="" Grid.Column="5" IsCancel="True" Style="{DynamicResource btn_Delete_style}" Margin="0,8.02,0,10" Width="10" Height="10"/>
+                </Grid>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</UserControl>

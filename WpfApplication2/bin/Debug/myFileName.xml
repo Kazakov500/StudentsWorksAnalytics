@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfParameter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Parameter>
+    <Number>0</Number>
+    <Title>1</Title>
+    <Description>1
+</Description>
+    <K>1</K>
+    <FromVal>1</FromVal>
+    <ToVal>1</ToVal>
+  </Parameter>
+  <Parameter>
+    <Number>1</Number>
+    <Title>2</Title>
+    <Description>2
+</Description>
+    <K>2</K>
+    <FromVal>2</FromVal>
+    <ToVal>2</ToVal>
+  </Parameter>
+</ArrayOfParameter>
